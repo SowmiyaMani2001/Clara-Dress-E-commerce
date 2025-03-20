@@ -194,7 +194,13 @@ body {
 #product1 {
     text-align: center;
 }
-
+#product1 .pto-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
 #product1 .pro {
     width: 23%;
     min-width: 250px;
